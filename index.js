@@ -221,7 +221,7 @@ const CHANNELS = [
 const CONFIRM_STYLE = 'danger'; 
 const CONFIRM_EMOJI_ID = process.env.EMOJI_RED_ID || '5273805757396031980';
 
-const REQUIRED_REFERRALS = parseInt(process.env.REQUIRED_REFERRALS || '5', 10);
+const REQUIRED_REFERRALS = parseInt(process.env.REQUIRED_REFERRALS || '10', 10);
 const GROUP_CHAT_ID = process.env.GROUP_CHAT_ID;
 
 const WEBHOOK_URL = process.env.WEBHOOK_URL;
