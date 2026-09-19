@@ -1,0 +1,19 @@
+{
+  "name": "ms-haydarov-bot",
+  "version": "1.0.0",
+  "description": "MS Haydarov Bot - Referal tizimi bilan majburiy obuna bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.7.0",
+    "undici": "^6.19.8"
+  }
+}
